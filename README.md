@@ -32,11 +32,11 @@ use oxycoach\imageswidget\DeleteImagesAction;
         return [
             'sort-images' => [
                 'class' => SortImagesAction::class,
-                'modelName' => DiscountItems::class,
+                'modelName' => MyModel::class,
             ],
             'delete-image' => [
                 'class' => DeleteImagesAction::class,
-                'modelName' => DiscountItems::class,
+                'modelName' => MyModel::class,
             ],
         ];
     }
