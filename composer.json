@@ -1,0 +1,24 @@
+{
+    "name": "oxy-coach/yii2-images-upload-widget",
+    "description": "Images upload widget working with yii2 image behavior",
+    "keywords": ["yii2", "image", "upload", "widget"],
+    "homepage": "https://github.com/oxy-coach/yii2-images-upload-widget",
+    "minimum-stability": "dev",
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "oxy-coach",
+            "email": "kolchin.moon@gmail.com",
+            "homepage": "https://github.com/oxy-coach",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "oxy-coach/yii2-image-behavior": ">= 1.3.0",
+        "yiisoft/yii2-jui": "*"
+    },
+    "autoload": {
+        "psr-4": { "oxycoach\\imageswidget\\": "" }
+    }
+}
